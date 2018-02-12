@@ -1,0 +1,44 @@
+#team {
+
+height: calc(100vh - 70px);
+background-image: linear-gradient(0deg, white 50%, $light-gray 50%);
+
+.team-content {
+  text-align: center;
+  padding: 150px 0;
+}
+
+.team-content h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.team-content p {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0,0,0,0.6);
+}
+
+.fa-heart {
+  color: #D23333;
+}
+
+.team-content .img-circle {
+  height: 150px;
+  width: 150px;
+  margin: 20px 0;
+}
+
+.github-name {
+  color: rgba(0,0,0,0.4);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fa-github {
+  color: rgba(0,0,0,0.4);
+  font-size: 15px;
+  margin: 0 3px;
+}
+}
